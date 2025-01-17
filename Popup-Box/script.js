@@ -1,3 +1,7 @@
-let x = 10;
+let x = true;
 
-alert(`Isi dari variabel x adalah ${x}`);
+while (x) {
+  let n = prompt('Masukkan nama : ');
+  alert(`Nama anda adalah ${n}`);
+  x = confirm('ulang?');
+}
