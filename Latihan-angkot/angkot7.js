@@ -1,4 +1,4 @@
-let penumpang = [];
+let penumpang = ['andi', 'galih', 'nofa'];
 let tambahPenumpang = function (namaPenumpang, penumpang) {
   if (penumpang.length == 0) {
     penumpang.push(namaPenumpang);
