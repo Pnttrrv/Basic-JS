@@ -10,5 +10,10 @@ let mhs = {
     }
     return total / ips.length;
   },
+  alamat: {
+    jalan: 'tanjung raya 2',
+    kota: 'Pontianak',
+    provinsi: 'Kalimantan Barat',
+  },
 };
 mhs.IPKumulatif();
